@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/item_nuevo"
-        android:icon="@android:drawable/ic_menu_add"
+    <item android:id="@+id/itemNuevo"
         android:title="Nuevo"
-        app:showAsAction="always" />
-    <item
-        android:id="@+id/item_opciones"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"/>
+    <item android:id="@+id/itemOpciones"
         android:title="Opciones"
-        android:icon="@android:drawable/ic_menu_preferences"
-        />
-    <item
-        android:id="@+id/item_ayuda"
-        android:title="Ayuda" />
-    <item
-        android:id="@+id/item_salir"
-        android:title="Salir" />
+        android:icon="@android:drawable/ic_menu_preferences"/>
+    <item android:id="@+id/itemAyuda"
+        android:title="Ayuda"
+        android:icon="@android:drawable/ic_menu_help"/>
+    <item android:id="@+id/itemSalir"
+        android:title="Salir"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"/>
 </menu>
